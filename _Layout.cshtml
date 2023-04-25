@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CSMProject</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CSMProject.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CSMProject</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            
+                        </li>
+                        <li class="nav-item">
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer-component">
+        <div class="footer-head">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 wraper">
+                        <div class="logo"></div>
+                        <p class="content-wrap">
+                            Luptatum facer dignissim invidunt eirmod stet dolore tincidunt diam
+                            stet
+                            ipsum sit quod enim
+                            elitr
+                            stet vero amet zzril laoreet
+                        </p>
+                        <div class="social-media">
+                            <ul class="n-padding">
+                                <li>
+                                    <a href="#" class="sm-facebook">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sm-twitter">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sm-instagram">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sm-linkedin">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 recent-posts wraper">
+                        <h3 class="fs-1 mb-3 fw-1">RECENT POSTS</h3>
+                        <ul class="n-padding">
+                            <li>
+                                <a href="#" class="clr-wh">Consetetur praesent at no justo facilisis sit</a>
+                                <p class="clr-y fs-4">April 4, 2023</p>
+                            </li>
+                            <li>
+                                <a href="#" class="clr-wh">Consetetur praesent at no justo facilisis sit</a>
+                                <p class="clr-y fs-4">April 4, 2023</p>
+                            </li>
+                            <li>
+                                <a href="#" class="clr-wh">Consetetur praesent at no justo facilisis sit</a>
+                                <p class="clr-y fs-4">April 4, 2023</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 wraper">
+                        <h3 class="fs-1 mb-3 fw-1">POPULAR POSTS</h3>
+                        <ul class="n-padding">
+                            <li class="pt-2 mb-1">
+                                <div class="posts">
+                                    <div class="post-img">
+                                        <img src="img/img.jpg" alt="">
+                                    </div>
+                                    <div class="post-text">
+                                        <h6 class="post-title">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                                            elit.
+                                        </h6>
+                                        <p>
+                                            <i class="fa-regular fa-clock clr-y fs-4"></i>
+                                            <span class="clr-gr fs-4">October 4, 2023</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="pt-2 mb-1">
+                                <div class="posts">
+                                    <div class="post-img">
+                                        <img src="img/fimg.jpg" alt="">
+                                    </div>
+                                    <div class="post-text">
+                                        <h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                                        <p>
+                                            <i class="fa-regular fa-clock clr-y fs-4"></i>
+                                            <span class="clr-gr fs-4">October 4, 2023</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 wraper">
+                        <h3 class="fs-1 mb-3 fw-1">CONTANCT US</h3>
+                        <div class="contanct-us lh-1">
+                            <ul class="n-padding">
+                                <li>
+                                    <i class="fa-solid fa-phone-volume clr-y fs-2"></i>
+                                    <span class="fs-2">+1 (541) 2033-2023</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot clr-y fs-2"></i>
+                                    <span class="fs-2">Et delenit diam ea vel dolore sed elitr eirmod consequat</span>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-envelope clr-y fs-2"></i>
+                                    <!-- <i class="glyphicon glyphicon-envelope"></i> -->
+                                    <span class="fs-2">support@CateringServiceManagement.com</span>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="conatainer text-center pt-3 pb-5">
+                Copyrights &copy; 2023 <a href="#" class="clr-y">Catering Service Management Team</a>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
