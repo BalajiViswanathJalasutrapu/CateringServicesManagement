@@ -48,27 +48,27 @@ html {
     height: 50px;
 }
 
-.fs-1 {
+.fsize-1 {
     font-size: 16px !important;
 }
 
-.fs-2 {
+.fsize-2 {
     font-size: 15px !important;
 }
 
-.fs-3 {
+.fsize-3 {
     font-size: 14px !important;
 }
 
-.fs-4 {
+.fsize-4 {
     font-size: 12px !important;
 }
 
-.lh-1 {
+.lheight-1 {
     line-height: 2.2 !important;
 }
 
-.fw-1 {
+.fweight-1 {
     font-weight: 700;
 }
 
