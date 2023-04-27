@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.owl-carousel').owlCarousel({
+    $('.my-carousel').owlCarousel({
         loop: true,
         margin: 0,
         nav: true,
