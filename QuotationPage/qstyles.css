@@ -1,0 +1,157 @@
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main a {
+    color: #e4405f;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.layer1 {
+    background-image: url('svg/layer1.svg');
+}
+
+.flip {
+    transform: rotate(180deg);
+}
+
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 198px;
+    height: 78px;
+}
+
+.clr-r {
+    color: #C20114;
+}
+
+.bg-r {
+    background-color: #D62839;
+}
+
+.qp-bg-clr {
+    background-color: #293462;
+    /* border: 5px solid black; */
+    color: #fff;
+}
+
+.waver {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.waver svg {
+    position: relative;
+    display: block;
+    width: calc(162% + 1.3px);
+    height: 50px;
+    transform: rotateY(0deg);
+}
+
+.waver .shape-fill {
+    fill: #FFFFFF;
+}
+
+header {
+    position: relative;
+}
+
+footer {
+    position: relative;
+}
+
+footer .social-media ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+footer .social-media ul li a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: 5px;
+    object-fit: cover;
+}
+
+footer .social-media ul li a:hover {
+    background-color: #333333;
+}
+
+footer .social-media ul li a i {
+    text-align: center;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sm-facebook {
+    background-color: #3b5999;
+}
+
+.sm-twitter {
+    background-color: #55acee;
+}
+
+.sm-instagram {
+    background-color: #e4405f;
+}
+
+.sm-linkedin {
+    background-color: #0077B5;
+}
+
+.f-waver {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.f-waver svg {
+    position: relative;
+    display: block;
+    width: calc(162% + 1.3px);
+    height: 37px;
+    transform: rotate(180deg);
+}
+
+.f-waver .shape-fill {
+    fill: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+    .waver {
+        display: none;
+    }
+
+    .waver svg {
+        display: none;
+    }
+
+    .waver .shape-fill {
+        display: none;
+    }
+
+}
